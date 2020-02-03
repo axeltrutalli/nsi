@@ -9,23 +9,29 @@
 
   <body>
     <header>
-      <h1>Acceuil</h1>
     </header>
 
     <nav>
       <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Mon CV</a></li>
-        <li><a href="#">Me contacter</a></li>
+        <li class="menu acceuil"><a href="#">Acceuil</a>
+          <ul class="submenu">
+              <li><a href="#">Première partie</a></li>
+              <li><a href="#">Deuxième partie</a></li>
+          </ul>
+        </li>
+        <li class="menu mon_cv"><a href="#">Mon CV</a>
+          <ul class="submenu">
+              <li><a href="#">Première partie</a></li>
+              <li><a href="#">Deuxième partie</a></li>
+          </ul>
+        </li>
+        <li class="menu contact"><a href="#">Me contacter</a>
+          <ul class="submenu">
+              <li><a href="#">Première partie</a></li>
+              <li><a href="#">Deuxième partie</a></li>
+          </ul>
+        </li>
       </ul>
-
-       <!-- Un formulaire de recherche est une autre façon de naviguer de
-            façon non‑linéaire dans un site. -->
-
-       <form>
-         <input type="search" name="q" placeholder="Rechercher">
-         <input type="submit" value="Lancer !">
-       </form>
      </nav>
 
     <!-- Ici nous mettons le contenu de la page -->
