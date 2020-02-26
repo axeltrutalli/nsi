@@ -1,4 +1,5 @@
-﻿body{
+@charset "UTF-8";
+body{
     font-family: 'Century Gothic', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 13px;
     margin: 0px;
@@ -32,7 +33,7 @@ nav{
 nav ul {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
 nav li{
