@@ -5,11 +5,9 @@ body, html {
 }
 
 .header {
-  height: 95px;
+  height: 400px;
   width: auto;
-  background-color: #000;
-  background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80') center no-repeat;
-  background-size: cover;
+  position: relative;
 }
 
 .header__texture {
@@ -17,7 +15,17 @@ body, html {
   height: 100%;
   position: absolute;
   top: 0;left:0;
+  background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80') center no-repeat;
+  background-size: cover;
+  z-index: 1;
 
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  z-index: 999;
 }
 
 .header__navbar {
@@ -29,13 +37,6 @@ body, html {
   align-items: center;
 }
 
-nav {
-  width: 90%;
-  margin: auto;
-  position: relative;
-  z-index: 999;
-}
-
 .header__navbar--logo-title {
   color: #fff;
   font-size: 28px;
@@ -45,4 +46,25 @@ nav {
   margin-left: 40px;
   color: #fff;
   text-decoration: none;
+}
+
+.header__slogan {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.header__slogan--title {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family:'Anton';
+  font-style: italic;
+}
+
+.h__slogan--btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  background: #f1c40f;
+  border-radius: 3px;
 }
