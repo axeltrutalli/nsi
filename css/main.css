@@ -7,7 +7,6 @@
          url('../fonts/lato-black.svg#LatoBlack') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -19,7 +18,6 @@
          url('../fonts/lato-light.svg#LatoLight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -31,7 +29,6 @@
          url('../fonts/lato-bold.svg#LatoBold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -43,7 +40,6 @@
          url('../fonts/lato-hairline.svg#LatoHairline') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -55,7 +51,6 @@
          url('../fonts/raleway-bold.svg#RalewayBold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -67,7 +62,6 @@
          url('../fonts/raleway-light.svg#RalewayLight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -79,7 +73,6 @@
          url('../fonts/raleway-regular.svg#RalewayRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -91,7 +84,6 @@
          url('../fonts/raleway-semibold.svg#RalewaySemibold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html {
@@ -103,6 +95,7 @@ html {
 body {
   margin: 0;
 }
+
 .row{
 	max-width:1140px;
 	padding: 0 20px;
@@ -115,7 +108,6 @@ body {
 .top-bar .toggle-topbar.menu-icon a{
 	padding: 0 2rem 0 0.9375rem;
 }
-
 
 .top-bar,
 .top-bar-section li:not(.has-form) a:not(.button),
@@ -182,8 +174,13 @@ body {
 	margin-bottom: 50px;
 }
 
+.surB {
+  text-decoration: none;
+  padding: 0 0 3px 0;
+  border-bottom: 5px solid #fff
+}
 
-.hero .caption .btn_details span{
+.hero .caption .btn_details{
 	display: inline-block;
 	color: #fff;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
@@ -191,31 +188,26 @@ body {
 	letter-spacing: .5px;
 	position: relative;
 	margin-right: 5px;
-	border-bottom: 1px dashed #ffffff;
+  border-bottom: 1px dashed #9AC8ED;
 	padding-bottom: 3px;
 }
 
-.hero .caption .btn_details .arrow{
+.hero .caption .btn_details .arrow {
 	-webkit-transition:all .2s ease-out;
 	     -o-transition:all .2s ease-out;
 	        transition:all .2s ease-out;
 }
 
-.hero .caption .btn_details:hover .arrow{
+.hero .caption .btn_details:hover .arrow {
 	-webkit-transform:translateX(3px);
 	    -ms-transform:translateX(3px);
 	     -o-transform:translateX(3px);
 	        transform:translateX(3px);
 }
 
-
-
-
-
-
-
-
-/*    Header    */
+.flch:hover {
+  color: #9AC8ED;
+}
 
 header{
 	width: 100%;
