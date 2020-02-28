@@ -142,24 +142,25 @@ body {
   box-shadow: 0 0 0 1px #fbdd90, 0 7px 0 1px #fbdd90, 0 14px 0 1px #fbdd90;
 }
 
-.hero{
-	width: 100%;
-	height: 750px;
-	background: url('../img/font.jpg') no-repeat 50% 50%;
+.accueil {
+  width: 100%;
+	height: inherit;
+	background: url('../img/he.pdf') no-repeat 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	   background-size: cover;
 }
 
-.hero .caption{
-	margin-top: 140px;
+.hero{
+	width: 100%;
+	height: 750px;
 }
 
 .hero .caption h1.mean_cap{
 	font-family: "lato-black", Helvetica, Arial, sans-serif;
 	font-size: 60px;
-	color: #fff;
+	color: #f80040;
 	text-transform: uppercase;
 	line-height: 70px;
 }
@@ -168,7 +169,7 @@ body {
 	font-family: "lato-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	font-size: 60px;
-	color: #fff;
+	color: #f80040;
 	text-transform: uppercase;
 	line-height: 70px;
 	margin-bottom: 50px;
@@ -177,18 +178,20 @@ body {
 .surB {
   text-decoration: none;
   padding: 0 0 3px 0;
-  border-bottom: 5px solid #fff
+  border-bottom: 5px solid #f80040;
 }
-
+.caption{
+  margin-top: 170px;
+}
 .hero .caption .btn_details{
 	display: inline-block;
-	color: #fff;
+	color: #f80040;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	letter-spacing: .5px;
 	position: relative;
 	margin-right: 5px;
-  border-bottom: 1px dashed #9AC8ED;
+  border-bottom: 1px dashed #f80040;
 	padding-bottom: 3px;
 }
 
@@ -203,10 +206,6 @@ body {
 	    -ms-transform:translateX(3px);
 	     -o-transform:translateX(3px);
 	        transform:translateX(3px);
-}
-
-.flch:hover {
-  color: #9AC8ED;
 }
 
 header{
@@ -259,5 +258,7 @@ header .top-bar-section li:not(.has-form) a:not(.button){
 }
 
 header .top-bar-section li:not(.has-form) a:not(.button):hover{
-	color: #9AC8ED;
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  color: #f80040;
 }
